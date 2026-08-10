@@ -18,3 +18,5 @@
 # ignore user bazelrc
 .bazelrc.user
 *.log
+config.bat
+node_modules

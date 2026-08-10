@@ -2,6 +2,11 @@
 
 # Distroless's test.sh runs pylint on all python files, but this module will not exist
 # pylint: disable=import-error
+import common.net
+import common.clients
+import common.http_session
+import common.transport
+import common.session
 import psutil
 
 
